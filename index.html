@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Brahmos Logistics — Driven by Reliability. Delivered with Precision.</title>
+<meta name="description" content="Brahmos Logistics — tailored freight & brokerage solutions: dry van, dedicated lanes, and reliable capacity." />
+<style>
+  :root{
+    --blue:#0b61d6;
+    --blue-dark:#084aa3;
+    --muted:#6b7280;
+    --bg:#ffffff;
+    --card:#f8fafc;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color:#0f1724;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
+  .container{max-width:1100px;margin:0 auto;padding:28px}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 0;position:sticky;top:0;background:linear-gradient(180deg,rgba(255,255,255,0.95),rgba(255,255,255,0.85));backdrop-filter:blur(4px);z-index:40;border-bottom:1px solid #eef2f6}
+  .brand{display:flex;gap:12px;align-items:center}
+  .logo{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:20px}
+  nav{display:flex;gap:18px;align-items:center}
+  nav a{color:var(--muted);text-decoration:none;font-weight:700;font-size:14px}
+  .cta{display:flex;gap:10px}
+  .btn{background:var(--blue);color:white;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(11,97,214,0.12);border:none;cursor:pointer}
+  .btn.ghost{background:transparent;border:2px solid var(--blue);color:var(--blue)}
+  /* Hero */
+  .hero{display:flex;gap:36px;align-items:center;padding:36px 0}
+  .hero-left{flex:1;animation:fadeUp .7s ease both;transform-origin:center top}
+  .eyebrow{color:var(--blue);font-weight:800;margin-bottom:10px;letter-spacing:0.6px;font-size:13px}
+  h1{font-size:36px;margin:0 0 12px;line-height:1.02}
+  p.lead{color:var(--muted);margin:0 0 18px;max-width:60ch}
+  .hero-cta{display:flex;gap:12px}
+  .hero-right{flex:1;display:flex;align-items:center;justify-content:center;animation:fadeIn .9s ease both}
+  .card{background:var(--card);padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(12,15,20,0.04);width:100%;border:1px solid #eef6ff;}
+  /* Services */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:22px}
+  .service{background:white;border-radius:10px;padding:16px;border:1px solid #eef2f6}
+  .service h4{margin:8px 0}
+  .partners{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .partner{background:#fff;padding:10px;border-radius:6px;border:1px solid #f1f5f9;min-width:100px;text-align:center;color:var(--muted);font-weight:700}
+  /* Testimonials */
+  .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:18px}
+  .testimonial{background:linear-gradient(180deg,#ffffff,#fbfdff);border-radius:8px;padding:14px;border:1px solid #e6eefc}
+  footer{border-top:1px solid #eef2f6;margin-top:28px;padding-top:18px;color:var(--muted);font-size:14px}
+  .flex-row{display:flex;gap:18px;align-items:center}
+  .section{padding:28px 0;border-bottom:1px solid #fbfbfb}
+  .small{font-size:13px;color:var(--muted)}
+  /* Responsive */
+  @media (max-width:920px){
+    .hero{flex-direction:column}
+    nav{display:none}
+  }
+  @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  form input, form textarea, form select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;box-sizing:border-box;font-size:14px}
+  .inputs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  @media (max-width:640px){.inputs{grid-template-columns:1fr}}
+  .hero-note{font-size:13px;color:var(--muted);margin-top:12px}
+  .pill{display:inline-block;padding:6px 10px;background:#f3f7ff;color:var(--blue);border-radius:999px;font-weight:700;font-size:13px;border:1px solid #e6f0ff}
+  .logo-txt{font-weight:800}
+  .outline{border:2px solid #111;margin:14px 0}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">B</div>
+        <div>
+          <div class="logo-txt">Brahmos Logistics</div>
+          <small class="small">Driven by Reliability. Delivered with Precision.</small>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn ghost" href="#quote">Get a Quote</a>
+        <a class="btn" href="#contact">Work With Us</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-left">
+          <div class="eyebrow">DEDICATED CAPACITY</div>
+          <h1>Driven by Reliability. Delivered with Precision.</h1>
+          <p class="lead">Brahmos Logistics provides dependable dedicated lanes, brokerage solutions, and modern TMS visibility — built for carriers and shippers who value punctuality and transparency.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#quote">Get a Quote</a>
+            <a class="btn ghost" href="#services">Our Services</a>
+          </div>
+          <div class="hero-note">Phone: <span style="color:var(--muted)">__________</span> • Email: <span style="color:var(--muted)">__________</span></div>
+        </div>
+
+        <div class="hero-right">
+          <div class="card" id="quote">
+            <h3 style="margin:0 0 8px">Quick Quote</h3>
+            <p class="small" style="margin:0 0 12px">Enter origin, destination and trailer — we’ll get you a fast, competitive rate.</p>
+            <form id="quickQuote" onsubmit="event.preventDefault();quickQuote()">
+              <div class="inputs" style="margin-bottom:8px">
+                <input id="origin" placeholder="Origin (city, st)" required />
+                <input id="destination" placeholder="Destination (city, st)" required />
+              </div>
+              <div style="margin-bottom:8px">
+                <select id="trailer">
+                  <option>Dry Van</option>
+                  <option>Reefer</option>
+                  <option>Flatbed</option>
+                </select>
+              </div>
+              <div style="margin-bottom:8px">
+                <input id="weight" placeholder="Weight (lbs)" />
+              </div>
+              <div style="display:flex;gap:8px">
+                <button class="btn" type="submit">Request Quote</button>
+                <button class="btn ghost" type="button" onclick="copyExample()">Use Example</button>
+              </div>
+              <p id="quoteResult" class="small" style="margin-top:10px;color:var(--muted)"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+          <div style="flex:1;min-width:220px">
+            <h3 style="margin:0 0 8px">Our Services</h3>
+            <p class="small" style="margin:0 0 10px">End-to-end logistics services with transparent pricing and dependable capacity.</p>
+          </div>
+          <div style="flex:1.4;">
+            <div class="grid">
+              <div class="service"><h4>Dedicated Lanes</h4><p class="small">Daily guaranteed capacity for consistent routes and premium pay.</p></div>
+              <div class="service"><h4>Brokerage</h4><p class="small">Nationwide load matching with vetted carriers and quick payouts.</p></div>
+              <div class="service"><h4>Dry Van Transportation</h4><p class="small">Secure, enclosed freight movement optimized for palletized goods.</p></div>
+              <div class="service"><h4>Expedited Shipping</h4><p class="small">Time‑sensitive deliveries with priority handling and tracking.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="section">
+        <h3 style="margin:0 0 8px">Why Choose Brahmos</h3>
+        <div style="display:flex;gap:18px;flex-wrap:wrap">
+          <div style="flex:1;min-width:200px" class="card">
+            <strong>On-time performance</strong>
+            <p class="small" style="margin:6px 0 0">Proven track record of punctual pickups and deliveries.</p>
+          </div>
+          <div style="flex:1;min-width:200px" class="card">
+            <strong>Transparent pricing</strong>
+            <p class="small" style="margin:6px 0 0">Simple, predictable rates and clear payment terms.</p>
+          </div>
+          <div style="flex:1;min-width:200px" class="card">
+            <strong>24/7 dispatch</strong>
+            <p class="small" style="margin:6px 0 0">Round‑the‑clock support and proactive communications.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h3 style="margin:0 0 8px">About Brahmos</h3>
+        <p class="small">Brahmos Logistics is a dedicated logistics provider focused on consistent capacity, fast payments, and long‑term carrier partnerships. We specialize in dry van, refrigerated, and expedited lanes across the continental U.S.</p>
+      </section>
+
+      <section id="contact" class="section">
+        <h3 style="margin:0 0 8px">Contact & Careers</h3>
+        <div style="display:flex;gap:18px;flex-wrap:wrap">
+          <div style="flex:1;min-width:260px">
+            <div class="card">
+              <form id="contactForm" onsubmit="event.preventDefault();sendContact()">
+                <input id="cname" placeholder="Full name" required style="margin-bottom:8px"/>
+                <input id="ccompany" placeholder="Company / Carrier" style="margin-bottom:8px"/>
+                <input id="ccontact" placeholder="Phone or Email" required style="margin-bottom:8px"/>
+                <textarea id="cmessage" placeholder="Message / lanes / availability" style="margin-bottom:8px;height:90px"></textarea>
+                <div style="display:flex;gap:8px"><button class="btn" type="submit">Send Message</button><button class="btn ghost" type="button" onclick="fillDemoContact()">Demo</button></div>
+                <p id="contactResult" class="small" style="margin-top:10px;color:var(--muted)"></p>
+              </form>
+            </div>
+          </div>
+          <div style="flex:1;min-width:240px">
+            <h4 style="margin:0 0 6px">Office</h4>
+            <div class="small" style="margin-bottom:10px">
+              8 Cadillac Drive, Suite 450<br/>Brentwood, TN 37027<br/>
+              Phone: <span style="color:var(--muted)">__________</span><br/>Email: <span style="color:var(--muted)">__________</span>
+            </div>
+            <div style="margin-top:14px"><a class="btn ghost" href="#careers">Join Our Team</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section">
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;align-items:center">
+        <div>© <strong>Brahmos Logistics</strong> • <span class="small">Privacy | Terms</span></div>
+        <div class="flex-row" style="gap:14px">
+          <small class="small">USDOT: ______</small>
+          <small class="small">MC: ______</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+<script>
+  // Demo actions (replace with real endpoints when ready)
+  function quickQuote(){
+    const o=document.getElementById('origin').value||'Mobile, AL';
+    const d=document.getElementById('destination').value||'Birmingham, AL';
+    const t=document.getElementById('trailer').value||'Dry Van';
+    const w=document.getElementById('weight').value||'8000';
+    const result = `Sample quote requested: ${o} → ${d} · ${t} · ${w} lbs — our team will follow up.`;
+    document.getElementById('quoteResult').textContent = result;
+  }
+  function copyExample(){
+    document.getElementById('origin').value='Mobile, AL';
+    document.getElementById('destination').value='Birmingham, AL';
+    document.getElementById('weight').value='8000';
+    document.getElementById('trailer').value='Dry Van';
+    document.getElementById('quoteResult').textContent='Example pre-filled.';
+  }
+  function sendContact(){
+    const n=document.getElementById('cname').value;
+    document.getElementById('contactResult').textContent = `Thanks ${n || ''}, we received your message (demo).`;
+  }
+  function fillDemoContact(){
+    document.getElementById('cname').value='John Driver';
+    document.getElementById('ccompany').value='Scotts Trucking LLC';
+    document.getElementById('ccontact').value='(555) 555-0101';
+    document.getElementById('cmessage').value='Available for daily Mobile↔Birmingham dedicated runs.';
+    document.getElementById('contactResult').textContent='Demo contact filled.';
+  }
+</script>
+</body>
+</html>
